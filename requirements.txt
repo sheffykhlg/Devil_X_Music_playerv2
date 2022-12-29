@@ -1,0 +1,10 @@
+ 𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖==1.24.0
+py-tgcalls==0.9.1
+requests
+pillow
+aiofile
+yt-dlp
+aiofiles
+youtube-search-python
+speedtest-cli
+numpy
