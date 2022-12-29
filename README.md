@@ -33,7 +33,7 @@
 <p align="center">
 <a href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-black?style=for-the-badge&logo=github" width="200""/></a>
 
-<p align="center"><a href="https://github.com/sahilsaim1919/kaali_Linux_2"><img src="https://te.legra.ph/file/e7c697574b982fd6eae25.jpg"></a></p>
+<p align="center"><a href="https://github.com/sahilsaim1919/Devil_Server"><img src="https://te.legra.ph/file/e7c697574b982fd6eae25.jpg"></a></p>
 
 
 <h3 align="center">
@@ -41,7 +41,7 @@
 </h3>
 
 <p>
-<a href="https://github.com/sahilsaim1919/kaali_Linux_2"><img src="https://img.shields.io/badge/𝐃𝐄𝐕𝐈𝐋 _𝐒𝐄𝐑𝐕𝐄𝐑 %20Deploy-black?style=for-the-badge&logo=github" width="200""/></a>
+<a href="https://github.com/sahilsaim1919/Devil_Server"><img src="https://img.shields.io/badge/𝐃𝐄𝐕𝐈𝐋 _𝐒𝐄𝐑𝐕𝐄𝐑 %20Deploy-black?style=for-the-badge&logo=github" width="200""/></a>
 
 
 
