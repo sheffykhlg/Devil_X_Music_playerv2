@@ -1,0 +1,9 @@
+git clone $REPO XYZ
+cd XYZ
+python3 -m sahilsaim1919
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
