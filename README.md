@@ -79,5 +79,5 @@
 </h3>
 
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ 𝐃𝐄𝐕𝐈𝐋](https://github.com/sahilsaim1919) ғᴏʀ [𝐃𝐄𝐕𝐈𝐋 ꪑꪊ𝘴𝓲ᥴ ʙᴏᴛ](https://github.com/sahilsaim1919/Devil_X_Music_player)_ </b>
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [𝐓𝐄𝐀𝐌 𝐃𝐄𝐕𝐈𝐋](https://github.com/sahilsaim1919) ғᴏʀ [𝐃𝐄𝐕𝐈𝐋 ꪑꪊ𝘴𝓲ᥴ ʙᴏᴛ](https://github.com/sahilsaim1919/Devil_X_Music_player)_ </b>
  
