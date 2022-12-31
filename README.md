@@ -2,9 +2,8 @@
     ──「 DeVil X ダ ᴍᴜsɪᴄ 」──
 </h2>
 
-<p align="center">
-  <img src="https://te.legra.ph/file/23feb49958b0770578fe1.jpg">
-</p>
+<p align="center"><a href="https://t.me/sabyahaapnehai"><img src="https://te.legra.ph/file/23feb49958b0770578fe1.jpg"></a></p>
+
 
 
 <h3 align="center">
