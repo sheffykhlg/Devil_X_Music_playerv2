@@ -1,0 +1,61 @@
+# Powered By @BikashHalder@AdityaHalder
+
+from typing import Union
+from pyrogram.types import InlineKeyboardButton
+
+from Bikash.config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
+from Bikash import app
+
+
+def start_pannel(_):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text="?? ???????????????? ?",
+                url=f"https://t.me/{app.username}?start=help",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="?? ??????????????",
+                url=f"https://t.me/BikashGedgetsTech",
+            ),
+            InlineKeyboardButton(
+                text="?????????????? ??",
+                url=f"https://t.me/bgt_chat",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="? ?????? ?????????????? ?", callback_data="settings_helper"
+            )
+        ]
+    ]
+    
+    return buttons
+
+
+def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
+    buttons = [
+        [
+            InlineKeyboardButton(
+                text="? ??????? ???? ???????? ?????????? ? ?",
+                url=f"https://t.me/{app.username}?startgroup=true"),
+        ],
+        [
+            InlineKeyboardButton(
+                text="?? ??????????????",
+                url=f"https://t.me/BikashGedgetsTech"),
+            InlineKeyboardButton(
+                text="?????????????? ??",
+                url=f"https://t.me/bgt_chat")
+        ],
+        [
+            InlineKeyboardButton(
+                text="? ? ???????????????? ? ?",
+                callback_data="settings_back_helper"
+            )
+        ]
+    ]
+            
+    return buttons
