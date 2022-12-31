@@ -33,7 +33,7 @@
 <p align="center">
 <a href="https://github.com/new/import"><img src="https://img.shields.io/badge/Workflow%20Deploy-black?style=for-the-badge&logo=github" width="200""/></a>
 
-<p align="center"><a href="https://github.com/sahilsaim1919/Devil_Server"><img src="https://te.legra.ph/file/e7c697574b982fd6eae25.jpg"></a></p>
+<p align="center"><a href="https://github.com/sahilsaim1919/Devil_Server"><img src="https://te.legra.ph/file/5692db4962a1e133d1b26.jpg"></a></p>
 
 
 <h3 align="center">
@@ -58,9 +58,7 @@
 <a href="https://replit.com/@sahilsaim1919/DEVIL"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
 <a
 
-<p align="center">
-  <img src="https://te.legra.ph/file/0ca8c89c6a9eb05c491b7.jpg">
-</p>
+
 
    <h3 align="center">
        ─「 sᴜᴩᴩᴏʀᴛ 」─
