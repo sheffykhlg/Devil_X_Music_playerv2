@@ -57,6 +57,7 @@
 <p>
 <a href="https://replit.com/@sahilsaim1919/DEVIL"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
 <a
+
 <p align="center"><a href="https://t.me/sabyahaapnehai"><img src="https://te.legra.ph/file/7ea3a1d4ca2a70e9cfad7.jpg"></a></p>
 
 
