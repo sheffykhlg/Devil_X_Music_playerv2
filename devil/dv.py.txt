@@ -1,5 +1,6 @@
 
-# Powered By @TeamDevil @misterjack18
+# Powered By @TeamDevil
+ @misterjack18
 
 from typing import Union, List
 from pyrogram import filters
