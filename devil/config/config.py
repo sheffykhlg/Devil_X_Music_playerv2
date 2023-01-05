@@ -1,5 +1,5 @@
 
-# Powered By @BikashHalder @AdityaHalder
+# Powered By @Devil_X_Music_player @misterjack18
 
 import os
 import re
@@ -21,11 +21,11 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "300"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " BIKASH ADITYA PLAYER")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " DEVIL X MUSIC PLAYER")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/TEJXOS/ADITYAPLAYER",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/sahilsaim1919/Devil_X_Music_player",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BikashGadgetsTech")
