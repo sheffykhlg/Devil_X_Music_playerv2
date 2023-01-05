@@ -1,9 +1,9 @@
-# Bikash Aditya Player Bot Variables
+# Devil X music bot Bot Variables
 
 
 ## Mandatory Vars
 
-- These are the minimum required vars need to setup to make Aditya Player Bot functional.
+- These are the minimum required vars need to setup to make Devil Player Bot functional.
 
 1. `API_ID` : Get it from my.telegram.org 
 2. `API_HASH`  : Get it from my.telegram.org 
