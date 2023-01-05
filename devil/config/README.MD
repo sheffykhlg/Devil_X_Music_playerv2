@@ -12,7 +12,7 @@
 5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
 6. `MUSIC_BOT_NAME` : A name for your Music bot.
 7. `OWNER_ID` : Your Owner ID for managing your bot.
-8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@Bgtstringbot](http://t.me/Bgtstringbot) in Telegram.
+8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@sahilsaim1919/DEVIL](https://replit.com/@sahilsaim1919/DEVIL) in replit.
 
 
 ## Non-Mandatory Vars
@@ -52,7 +52,7 @@
 
 ## Spotify Vars
 
-- You can play tracks or playlists from spotify from Aditya Player bot
+- You can play tracks or playlists from spotify from Devil X music bot
 - You'll need these two vars to make spotify play working. This is not essential , you can leave them blank if you want.
 
 ### How to get these? [Read from here](https://t.me/BikashGedgetsTech)
@@ -75,7 +75,7 @@
 
 ## Custom Repo Vars
 
-- If you plan to use Aditya Player Bot with your own customized or modified code.
+- If you plan to use Devil X music Bot with your own customized or modified code.
 
 1. `UPSTREAM_REPO` : Your Upstream Repo URL or Forked Repo.
 2. `UPSTREAM_BRANCH` : Default Branch of your Upstream Repo URL or Forked Repo. 
@@ -107,8 +107,10 @@
 
 - You can use upto 5 Assistant Clients ( allowing your bot to atleast work in 2000-2500 chats at a time )
 
-1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@BgtStringBot](http://t.me/BgtStringBot) in Telegram.
-2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@BgtStringBot](http://t.me/BgtStringBot) in Telegram.
-3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@BgtStringBot](http://t.me/BgtStringBot) in Telegram.
-4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@BgtStringBot](http://t.me/BgtStringBot) in Telegram.
- 
+1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@sahilsaim1919/DEVIL](https://replit.com/@sahilsaim1919/DEVIL) in replit.
+
+2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@sahilsaim1919/DEVIL](https://replit.com/@sahilsaim1919/DEVIL) in replit.
+
+3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@sahilsaim1919/DEVIL](https://replit.com/@sahilsaim1919/DEVIL) in replit.
+
+4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@sahilsaim1919/DEVIL](https://replit.com/@sahilsaim1919/DEVIL) in replit.
