@@ -1,5 +1,6 @@
 
-# Powered By @Devil_X_Music_player @misterjack18
+# Powered By @Devil_X_Music_player 
+@misterjack18
 
 import os
 import re
@@ -26,10 +27,10 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/sahilsaim1919/Devil_X_Music_player",)
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BikashGadgetsTech")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/bgt_chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Teams_devil")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/sabyahaapnehai")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
@@ -74,11 +75,11 @@ autoclean = []
 LOG = 2
 YTDOWNLOADER = 1
 BANNED_USERS = filters.user()
-LOG_FILE_NAME = "bikashlogs.txt"
+LOG_FILE_NAME = "devillogs.txt"
 ############################
 
 
-# All Images Of Bikash Aditya Player // @BIKASHHALDER @AdityaHalder
+# All Images Of DEVil X PLAYER // @TeamDevil @misterjack18
 START_IMG_URL = getenv("START_IMG_URL", f"https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "resource/ping.jpeg")
 PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "resource/playlist.jpeg")
