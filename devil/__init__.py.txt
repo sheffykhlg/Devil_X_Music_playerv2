@@ -1,9 +1,9 @@
 
-from Bikash.core.bot import BikashXBot
-from Bikash.core.dir import dirr
-from Bikash.core.git import git
-from Bikash.core.userbot import Userbot
-from Bikash.misc import dbb, heroku, sudo
+from Devil.core.bot import DevilXBot
+from Devil.core.dir import dirr
+from Devil.core.git import git
+from Devil.core.userbot import Userbot
+from Devil.misc import dbb, heroku, sudo
 from aiohttp import ClientSession
 
 from .logging import LOGGER
@@ -24,7 +24,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = BikashXBot()
+app = DevilXmusicBot()
 
 # Assistant Client
 userbot = Userbot()
@@ -40,4 +40,4 @@ SoundCloud = SoundAPI()
 Telegram = TeleAPI()
 
 aiohttpsession = ClientSession()
-Footer
+
