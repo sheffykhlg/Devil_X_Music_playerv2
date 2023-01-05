@@ -86,8 +86,8 @@
 
 ## Images/Thumbnail Vars
 
-- You can change images which are used in Aditya Player Bot.
-- You can generate telegaph links from [BikashgadgetsTech](http://t.me/BikashGadgetsTech) and use it here.
+- You can change images which are used in Devil X music Bot.
+- You can generate telegaph links from [Team Devil](http://t.me/BikashGadgetsTech) and use it here.
 
 1. `START_IMG_URL` : Image which comes on /start command in private messages of bot.
 2. `PING_IMG_URL` : Image which comes on /ping command of bot.
