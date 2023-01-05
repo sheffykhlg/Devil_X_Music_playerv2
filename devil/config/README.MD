@@ -55,7 +55,7 @@
 - You can play tracks or playlists from spotify from Devil X music bot
 - You'll need these two vars to make spotify play working. This is not essential , you can leave them blank if you want.
 
-### How to get these? [Read from here](https://t.me/BikashGedgetsTech)
+### How to get these? [Read from here](https://t.me/Teams_Devil)
 
 
 1. `SPOTIFY_CLIENT_ID` : Get it from https://developer.spotify.com/dashboard 
@@ -67,7 +67,7 @@
 - To work some Heroku compatible modules, this var value required to Access your account to use `get_log`, `usage`, `update` etc etc commands.
 - You can fill this var using your API key or Authorization token.
 
-### How to get these? [Read from here](https://t.me/BikashGedgetsTech)
+### How to get these? [Read from here](https://t.me/Teams_Devil)
 
 1. `HEROKU_API_KEY` : Get it from http://dashboard.heroku.com/account 
 2. `HEROKU_APP_NAME` : You have to Enter the app name which you gave to identify your Music Bot in Heroku. 
@@ -87,7 +87,9 @@
 ## Images/Thumbnail Vars
 
 - You can change images which are used in Devil X music Bot.
-- You can generate telegaph links from [Team Devil](http://t.me/BikashGadgetsTech) and use it here.
+- You can generate telegaph links from [Team Devil](https://t.me/Teams_Devil) and use it here.
+
+- You can generate telegaph links from [Telegraph bot](https://t.me/vTelegraphBot) and use it here.
 
 1. `START_IMG_URL` : Image which comes on /start command in private messages of bot.
 2. `PING_IMG_URL` : Image which comes on /ping command of bot.
