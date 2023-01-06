@@ -1,17 +1,17 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Devil X music Or @misterjack18 IF You Fresh Any Problem To Contact The Devil X music bot Owner
 
 import sys
 from pyrogram import Client
-from Bikash import config
+from Devil import config
 from ..logging import LOGGER
 
 
 
-class BikashXBot(Client):
+class Devil X music bot (Client):
     def __init__(self):
         LOGGER(__name__).info(f"Starting Bot...")
         super().__init__(
-            "BgtRobot",
+            "Devil X music bot",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
