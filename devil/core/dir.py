@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Team Devil Or misterjack18 IF You Fresh Any Problem To Contact The DevilXmusicBot bot Owner
 
 import os
 import sys
@@ -24,4 +24,4 @@ def dirr():
     if "cache" not in listdir():
         mkdir("cache")
     LOGGER(__name__).info("Directories Updated.")
-Footer
+
