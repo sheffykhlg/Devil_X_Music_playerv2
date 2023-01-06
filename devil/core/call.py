@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Team Devil Or Misterjack18 IF You Fresh Any Problem To Contact The DevilXMusicbot Owner
 
 import asyncio
 from datetime import datetime, timedelta
@@ -18,11 +18,11 @@ from pytgcalls.types import (JoinedGroupCallParticipant,
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.types.stream import StreamAudioEnded
 
-from Bikash import config
-from Bikash.strings import get_string
-from Bikash import LOGGER, YouTube, app
-from Bikash.misc import db
-from Bikash.utils.database import (add_active_chat,
+from Devil import config
+from Devil.strings import get_string
+from Devil import LOGGER, YouTube, app
+from Devil.misc import db
+from Devil.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        get_assistant,
                                        get_audio_bitrate, get_lang,
@@ -31,11 +31,11 @@ from Bikash.utils.database import (add_active_chat,
                                        music_on, set_loop,
                                        remove_active_chat,
                                        remove_active_video_chat)
-from Bikash.utils.exceptions import AssistantErr
-from Bikash.utils.inline.play import (stream_markup,
+from Devil.utils.exceptions import AssistantErr
+from Devil.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from Bikash.utils.stream.autoclear import auto_clean
-from Bikash.utils.thumbnails import gen_thumb
+from Devil.utils.stream.autoclear import auto_clean
+from Devil.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}
@@ -606,4 +606,4 @@ class Call(PyTgCalls):
                 autoend[chat_id] = {}
 
 
-Bikashh = Call()
+Devil = Call()
