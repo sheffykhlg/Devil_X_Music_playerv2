@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Team Devil Or misterjack18 IF You Fresh Any Problem To Contact The DevilXmusicbot Owner
 
 import random
 from os.path import realpath
@@ -106,4 +106,4 @@ class CarbonAPI:
             with open(f"cache/carbon{user_id}.jpg", "wb") as f:
                 f.write(resp)
             return realpath(f.name)
-Footer
+
