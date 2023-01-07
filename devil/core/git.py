@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Team Devil Or misterjack18 IF You Fresh Any Problem To Contact The devilxmusicbot Owner
 
 import asyncio
 import shlex
@@ -74,5 +74,5 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -r Installer")
-        LOGGER(__name__).info(f"Fetching updates from BgtRobot...: {REPO_LINK} ")
+        LOGGER(__name__).info(f"Fetching updates from Devilxmusicbot...: {REPO_LINK} ")
 
