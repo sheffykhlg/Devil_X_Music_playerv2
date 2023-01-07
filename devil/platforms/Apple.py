@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Team Devil Or misterjack18 IF You Fresh Any Problem To Contact The DevilXmusicbot Owner
 
 import re
 from typing import Union
@@ -77,4 +77,4 @@ class AppleAPI:
                 )[0]
             results.append(xx)
         return results, playlist_id
-Footer
+
