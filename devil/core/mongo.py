@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Team Devil Or misterjack18 IF You Fresh Any Problem To Contact The BgtRobot Owner
 
 from motor.motor_asyncio import AsyncIOMotorClient as _mongo_client_
 from pymongo import MongoClient
@@ -33,5 +33,5 @@ else:
     _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
     _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
     mongodb = _mongo_async_.Bikashh
-    pymongodb = _mongo_sync_.Bikashh
-Footer
+    pymongodb = _mongo_sync_.Devil
+
