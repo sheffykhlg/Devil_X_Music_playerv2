@@ -1,4 +1,4 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Team Devil Or misterjack18 IF You Fresh Any Problem To Contact The DevilXmusicbot Owner
 
 import re
 from typing import Union
@@ -34,7 +34,7 @@ class RessoAPI:
             if tag.get("property", None) == "og:description":
                 des = tag.get("content", None)
                 try:
-                    des = des.split("·")[0]
+                    des = des.split("Â·")[0]
                 except:
                     pass
         if des == "":
@@ -54,4 +54,4 @@ class RessoAPI:
             "thumb": thumbnail,
         }
         return track_details, vidid
-Footer
+
