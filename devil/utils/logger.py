@@ -1,6 +1,6 @@
-from Bikash.config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
-from Bikash import app
-from Bikash.utils.database import is_on_off
+from Devil.config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
+from Devil import app
+from Devil.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
