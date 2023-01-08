@@ -1,7 +1,7 @@
 
 import os
 
-from Bikash.config import autoclean
+from Devil.config import autoclean
 
 
 async def auto_clean(popped):
@@ -21,4 +21,4 @@ async def auto_clean(popped):
                     pass
     except:
         pass
-Footer
+
