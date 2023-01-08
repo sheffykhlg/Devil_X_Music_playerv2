@@ -4,7 +4,7 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping", "ba"]
+PING_COMMAND : ["ping", "da"]
 START_COMMAND : ["start", "startDevil"]
 HELP_COMMAND : ["help", "Devilh"]
 SETTINGS_COMMAND : ["settings", "setting"]
@@ -50,10 +50,10 @@ RESTART_COMMAND : ["restart", ".reset", "reboot"]
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo", "adbgt", "adbk", "adkl"]
 DELSUDO_COMMAND : ["delsudo", "delbgt", "delkl", "delbk"]
-SUDOUSERS_COMMAND : ["sudolist", "bgtlist", "bklist"]
+SUDOUSERS_COMMAND : ["sudolist", "Devillist", "dvlist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast", "bcast", "bgtad"]
+BROADCAST_COMMAND : ["broadcast", "dcast", "dvlad"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
