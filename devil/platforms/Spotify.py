@@ -1,5 +1,5 @@
 
-# Powered By @BikashHalder @AdityaHalder
+# Powered By @Teams_devil @misterjack18
 
 import re
 
@@ -7,7 +7,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from youtubesearchpython.__future__ import VideosSearch
 
-from Bikash import config
+from Devil import config
 
 
 class SpotifyAPI:
