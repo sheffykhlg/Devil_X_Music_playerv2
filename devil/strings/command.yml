@@ -1,12 +1,12 @@
-# Powered By @BikashHalder @AdityaHalder
+# Powered By @Teams_Devil @misterjack18
 
 
 # Commands in Every Language
 
 # Bot Commands
 PING_COMMAND : ["ping", "ba"]
-START_COMMAND : ["start", "startbgt"]
-HELP_COMMAND : ["help", "bgth"]
+START_COMMAND : ["start", "startDevil"]
+HELP_COMMAND : ["help", "Devilh"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
@@ -14,7 +14,7 @@ STATS_COMMAND : ["stats", "status"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "bgt", "bk", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAY_COMMAND : ["play", "Devil", "Dv", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
 PLAYMODE_COMMAND : ["playmode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
@@ -100,6 +100,6 @@ ACTIVEVC_COMMAND : ["activevoice"]
 ACTIVEVIDEO_COMMAND : ["activevideo"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban", "bban", "bkban"]
-UNGBAN_COMMAND : ["ungban", "unbban", "unbkban"]
-GBANNED_COMMAND : ["gbannedusers", "gbanuser", "bbanu", "bu"]
+GBAN_COMMAND : ["gban", "dban", "dvban"]
+UNGBAN_COMMAND : ["ungban", "undban", "undvban"]
+GBANNED_COMMAND : ["gbannedusers", "gbanuser", "dbanu", "du"]
