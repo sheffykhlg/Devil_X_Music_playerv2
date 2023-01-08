@@ -7,9 +7,9 @@ from typing import Union
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Voice)
 
-from Bikash import config
-from Bikash.config import MUSIC_BOT_NAME, lyrical
-from Bikash import app
+from Devil import config
+from Devil.config import MUSIC_BOT_NAME, lyrical
+from Devil import app
 
 from ..utils.formatters import (convert_bytes, get_readable_time,
                                 seconds_to_min)
