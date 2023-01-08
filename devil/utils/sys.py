@@ -3,7 +3,7 @@ import time
 
 import psutil
 
-from Bikash.misc import _boot_
+from Devil.misc import _boot_
 
 from .formatters import get_readable_time
 
