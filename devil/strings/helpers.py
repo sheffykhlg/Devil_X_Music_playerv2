@@ -1,4 +1,4 @@
-# bikash halder
+# Team  Devil 
 
 HELP_1 = """?**<u>Admin Commands:</u>**
 **c** stands for channel play.
