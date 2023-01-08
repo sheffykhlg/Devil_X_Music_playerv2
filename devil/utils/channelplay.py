@@ -1,5 +1,5 @@
-from Bikash import app
-from Bikash.utils.database import get_cmode
+from Devil import app
+from Devil.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
@@ -26,4 +26,3 @@ async def get_channeplayCB(_, command, CallbackQuery):
         chat_id = CallbackQuery.message.chat.id
         channel = None
     return chat_id, channel
-Footer
