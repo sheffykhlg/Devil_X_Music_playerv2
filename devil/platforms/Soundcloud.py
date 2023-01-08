@@ -1,11 +1,11 @@
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By Team Devil Or misterjack18 IF You Fresh Any Problem To Contact The DevilXmusicbot Owner
 
 import re
 from os import path
 
 from yt_dlp import YoutubeDL
 
-from Bikash.utils.formatters import seconds_to_min
+from Devil.utils.formatters import seconds_to_min
 
 
 class SoundAPI:
@@ -40,4 +40,4 @@ class SoundAPI:
             "filepath": xyz,
         }
         return track_details, xyz
-Footer
+
