@@ -1,8 +1,8 @@
 from typing import Union
 
-from Bikash.config import autoclean, chatstats, userstats
-from Bikash.config.config import time_to_seconds
-from Bikash.misc import db
+from Devil.config import autoclean, chatstats, userstats
+from Devil.config.config import time_to_seconds
+from Devil.misc import db
 
 
 async def put_queue(
@@ -85,4 +85,4 @@ async def put_queue_index(
             db[chat_id].append(put)
     else:
         db[chat_id].append(put)
-Footer
+
