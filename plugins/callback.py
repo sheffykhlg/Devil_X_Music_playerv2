@@ -1,31 +1,31 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
-# Powered By BikashHalder Or Aditya Halder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# Powered By @Teams_devil @misterjack18
+# Â©? Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
+# Powered By Teams_devil Or misterjack18 IF You Fresh Any Problem To Contact The dvlRobot Owner
 
 import random
 
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
 
-from Bikash.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
+from Devil.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist)
-from Bikash import YouTube, app
-from Bikash.core.call import Bikashh
-from Bikash.misc import SUDOERS, db
-from Bikash.utils.database import (is_active_chat,
+from Devil import YouTube, app
+from Devil.core.call import Bikashh
+from Devil.misc import SUDOERS, db
+from Devil.utils.database import (is_active_chat,
                                        is_music_playing, set_loop,
                                        is_nonadmin_chat, music_off,
                                        music_on)
-from Bikash.utils.decorators.language import languageCB
-from Bikash.utils.formatters import seconds_to_min
-from Bikash.utils.inline.play import (panel_markup_1,
+from Devil.utils.decorators.language import languageCB
+from Devil.utils.formatters import seconds_to_min
+from Devil.utils.inline.play import (panel_markup_1,
                                           stream_markup,
                                           telegram_markup)
-from Bikash.utils.stream.autoclear import auto_clean
-from Bikash.utils.thumbnails import gen_thumb
+from Devil.utils.stream.autoclear import auto_clean
+from Devil.utils.thumbnails import gen_thumb
 
 wrong = {}
 
