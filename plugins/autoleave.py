@@ -1,15 +1,15 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# Â©? Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 import asyncio
 from datetime import datetime
 
-from Bikash import config
-from Bikash import app
-from Bikash.core.call import Bikashh, autoend
-from Bikash.utils.database import (get_client, is_active_chat,
+from Devil import config
+from Devil import app
+from Devil.core.call import devil, autoend
+from Devil.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
@@ -18,7 +18,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from BikashX.core.userbot import assistants
+            from DevilX.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -32,8 +32,8 @@ async def auto_leave():
                         ]:
                             chat_id = i.chat.id
                             if (
-                                chat_id != Bikash.config.LOG_GROUP_ID
-                                and chat_id != -1001719865866
+                                chat_id != Devil.config.LOG_GROUP_ID
+                                and chat_id != -1001378346983
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
@@ -63,7 +63,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Bikashh.stop_stream(chat_id)
+                    await Devil.stop_stream(chat_id)
                 except:
                     continue
                 try:
