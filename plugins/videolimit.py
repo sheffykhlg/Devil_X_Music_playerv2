@@ -1,16 +1,16 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# Â©? Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import set_video_limit
-from Bikash.utils.decorators.language import language
+from Devil.strings import get_command
+from Devil import app
+from Devil.misc import SUDOERS
+from Devil.utils.database import set_video_limit
+from Devil.utils.decorators.language import language
 
 VIDEOLIMIT_COMMAND = get_command("VIDEOLIMIT_COMMAND")
 
