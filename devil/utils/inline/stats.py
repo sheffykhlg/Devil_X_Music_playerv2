@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Bikash import app
+from Devil import app
 
 
 def back_stats_markup(_):
@@ -165,4 +165,3 @@ def top_ten_stats_markup(_):
         ]
     )
     return upl
-Footer
