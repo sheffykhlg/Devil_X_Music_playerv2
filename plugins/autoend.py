@@ -1,16 +1,16 @@
-# # Powered By @BikashHalder @AdityaHalder
-# ©? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder IF You Fresh Any Problem To Contact The BgtRobot Owner
+# # Powered By @Teams_devil @misterjack18
+# Â©? Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18 IF You Fresh Any Problem To Contact The dvlRobot Owner
 
 from pyrogram import filters
 
-from Bikash import config
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import autoend_off, autoend_on
-from Bikash.utils.decorators.language import language
+from Devil import config
+from Devil.strings import get_command
+from Devil import app
+from Devil.misc import SUDOERS
+from Devil.utils.database import autoend_off, autoend_on
+from Devil.utils.decorators.language import language
 
 # Commands
 AUTOEND_COMMAND = get_command("AUTOEND_COMMAND")
