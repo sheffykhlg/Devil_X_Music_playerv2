@@ -13,7 +13,7 @@ from Devil.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist)
 from Devil import YouTube, app
-from Devil.core.call import Bikashh
+from Devil.core.call import Devill
 from Devil.misc import SUDOERS, db
 from Devil.utils.database import (is_active_chat,
                                        is_music_playing, set_loop,
@@ -111,7 +111,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             )
         await CallbackQuery.answer()
         await music_off(chat_id)
-        await Bikashh.pause_stream(chat_id)
+        await Devill.pause_stream(chat_id)
         await CallbackQuery.message.reply_text(
             _["admin_2"].format(mention)
         )
@@ -122,13 +122,13 @@ async def del_back_playlist(client, CallbackQuery, _):
             )
         await CallbackQuery.answer()
         await music_on(chat_id)
-        await Bikashh.resume_stream(chat_id)
+        await Devill.resume_stream(chat_id)
         await CallbackQuery.message.reply_text(
             _["admin_4"].format(mention)
         )
     elif command == "Stop" or command == "End":
         await CallbackQuery.answer()
-        await Bikashh.stop_stream(chat_id)
+        await Devill.stop_stream(chat_id)
         await set_loop(chat_id, 0)
         await CallbackQuery.message.reply_text(
             _["admin_9"].format(mention)
@@ -180,7 +180,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     _["admin_10"].format(mention)
                 )
                 try:
-                    return await Bikashh.stop_stream(chat_id)
+                    return await Devill.stop_stream(chat_id)
                 except:
                     return
         except:
@@ -209,7 +209,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                     _["admin_11"].format(title)
                 )
             try:
-                await Bikashh.skip_stream(chat_id, link, video=status)
+                await Devill.skip_stream(chat_id, link, video=status)
             except Exception:
                 return await CallbackQuery.message.reply_text(
                     _["call_9"]
@@ -241,7 +241,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             except:
                 return await mystic.edit_text(_["call_9"])
             try:
-                await Bikashh.skip_stream(
+                await Devill.skip_stream(
                     chat_id, file_path, video=status
                 )
             except Exception:
@@ -262,7 +262,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await mystic.delete()
         elif "index_" in queued:
             try:
-                await Bikashh.skip_stream(
+                await Devill.skip_stream(
                     chat_id, videoid, video=status
                 )
             except Exception:
@@ -280,7 +280,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await CallbackQuery.edit_message_text(txt)
         else:
             try:
-                await Bikashh.skip_stream(chat_id, queued, video=status)
+                await Devill.skip_stream(chat_id, queued, video=status)
             except Exception:
                 return await CallbackQuery.message.reply_text(
                     _["call_9"]
@@ -375,7 +375,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             if n == 0:
                 return await mystic.edit_text(_["admin_30"])
         try:
-            await Bikashh.seek_stream(
+            await Devill.seek_stream(
                 chat_id,
                 file_path,
                 seconds_to_min(to_seek),
