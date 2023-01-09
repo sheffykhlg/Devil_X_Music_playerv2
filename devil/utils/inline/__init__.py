@@ -1,4 +1,4 @@
-# Powered By @BikashHalder @AdityaHalder
+# Powered By @Teams_devil @misterjack18
 
 from .help import *
 from .play import *
