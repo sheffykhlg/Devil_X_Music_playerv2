@@ -1,6 +1,6 @@
-from Bikash import config
-from Bikash.config import PRIVATE_BOT_MODE
-from Bikash.core.mongo import mongodb
+from Devil import config
+from Devil.config import PRIVATE_BOT_MODE
+from Devil.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
