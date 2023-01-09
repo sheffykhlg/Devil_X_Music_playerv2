@@ -1,8 +1,8 @@
 
-# Powered By @BikashHalder @AdityaHalder
-# ©? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# Â©? Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @sabyahaapnehai or @Teams_devil
+# Bot Owner @misterjack18 Or @Teams_devil
 
 import glob
 from os.path import basename, dirname, isfile
@@ -22,4 +22,4 @@ def __list_all_modules():
 
 ALL_MODULES = sorted(__list_all_modules())
 __all__ = ALL_MODULES + ["ALL_MODULES"]
-Footer
+
