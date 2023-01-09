@@ -1,7 +1,7 @@
-# Powered By @BilashHalder @AdityaHalder
+# Powered By @Teams_devil @misterjack18
 
 import random
-from Bikash.config import SUPPORT_GROUP
+from Devil.config import SUPPORT_GROUP
 from pyrogram.types import InlineKeyboardButton
 
 
@@ -83,11 +83,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text="?? ???????? ??????????",
-                callback_data=f"BikashPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+                callback_data=f"DevilPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text="???????? ?????????? ??",
-                callback_data=f"BikashPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+                callback_data=f"DevilPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
