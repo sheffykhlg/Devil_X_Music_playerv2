@@ -1,10 +1,10 @@
-# Powered By @BikashHalder@AdityaHalder
+# Powered By @Teams_devil @misterjack18
 
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
 
-from Bikash.config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
-from Bikash import app
+from Devil.config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
+from Devil import app
 
 
 def start_pannel(_):
@@ -18,11 +18,11 @@ def start_pannel(_):
         [
             InlineKeyboardButton(
                 text="?? ??????????????",
-                url=f"https://t.me/BikashGedgetsTech",
+                url=f"https://t.me/sabyahaapnehai",
             ),
             InlineKeyboardButton(
                 text="?????????????? ??",
-                url=f"https://t.me/bgt_chat",
+                url=f"https://t.me/Teams_devil",
             )
         ],
         [
@@ -45,10 +45,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="?? ??????????????",
-                url=f"https://t.me/BikashGedgetsTech"),
+                url=f"https://t.me/sabyahaapnehai"),
             InlineKeyboardButton(
                 text="?????????????? ??",
-                url=f"https://t.me/bgt_chat")
+                url=f"https://t.me/Teams_devil")
         ],
         [
             InlineKeyboardButton(
