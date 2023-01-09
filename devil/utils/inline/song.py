@@ -1,6 +1,6 @@
 
 from pyrogram.types import InlineKeyboardButton
-from Bikash import config
+from Devil import config
 
 def song_markup(_, vidid):
     buttons = [
@@ -21,10 +21,10 @@ def song_markup(_, vidid):
         ],
         [
             InlineKeyboardButton(
-                text="?? ?????????????? ??", url=f"{Bikash.config.SUPPORT_GROUP}",
+                text="?? ?????????????? ??", url=f"{Devil.config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text="??????????????", url=f"https://t.me/BikashGedgetsTech"
+                text="??????????????", url=f"https://t.me/sabyahaapnehai"
             ),
         ],
     ]
