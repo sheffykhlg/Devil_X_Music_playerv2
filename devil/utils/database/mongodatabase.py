@@ -1,7 +1,7 @@
 
 from typing import Dict, List, Union
 
-from Bikash.core.mongo import mongodb
+from Devil.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats
@@ -430,4 +430,4 @@ async def remove_banned_user(user_id: int):
     if not is_gbanned:
         return
     return await blockeddb.delete_one({"user_id": user_id})
-Footer
+
