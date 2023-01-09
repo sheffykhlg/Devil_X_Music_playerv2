@@ -1,10 +1,10 @@
 
-# Powered By @BikashHalder @AdityaHalder
+# Powered By @Teams_devil @misterjack18
 
 from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Bikash import app
-from Bikash.config import SUPPORT_GROUP
+from Devil import app
+from Devil.config import SUPPORT_GROUP
 
 
 def help_pannel(_, START: Union[bool, int] = None):
@@ -87,4 +87,4 @@ def private_help_panel(_):
         ],
     ]
     return buttons
-Footer
+
