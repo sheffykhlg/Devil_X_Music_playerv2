@@ -1,8 +1,8 @@
 # Powered By Teams_devil Or misterjack18 IF You Fresh Any Problem To Contact The dvlRobot Owner
 # Powered By @Teams_devil @misterjack18
 # ©? Copy Right By Teams_devil Or misterjack18 
-# Any Problem To Report @sabyahaapnehai or @@Teams_devil
-# Bot Owner @@Teams_devil Or @misterjack18
+# Any Problem To Report @sabyahaapnehai or @Teams_devil
+# Bot Owner @Teams_devil Or @misterjack18
 
 from pyrogram import filters
 from pyrogram.types import Message
