@@ -1,7 +1,7 @@
 import random
 
-from Bikash import userbot
-from Bikash.core.mongo import mongodb
+from Devil import userbot
+from Devil.core.mongo import mongodb
 
 db = mongodb.assistants
 
@@ -22,7 +22,7 @@ async def get_client(assistant: int):
 
 
 async def set_assistant(chat_id):
-    from Bikash.core.userbot import assistants
+    from Devil.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -36,7 +36,7 @@ async def set_assistant(chat_id):
 
 
 async def get_assistant(chat_id: int) -> str:
-    from Bikash.core.userbot import assistants
+    from Devil.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
@@ -63,7 +63,7 @@ async def get_assistant(chat_id: int) -> str:
 
 
 async def set_calls_assistant(chat_id):
-    from Bikash.core.userbot import assistants
+    from Devil.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -76,7 +76,7 @@ async def set_calls_assistant(chat_id):
 
 
 async def group_assistant(self, chat_id: int) -> int:
-    from Bikash.core.userbot import assistants
+    from Devil.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
@@ -105,4 +105,4 @@ async def group_assistant(self, chat_id: int) -> int:
         return self.four
     elif int(assis) == 5:
         return self.five
-Footer
+
