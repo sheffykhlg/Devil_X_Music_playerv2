@@ -10,7 +10,7 @@ class Config(object):
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Devil_x_music_bot")
     SUPPORT = os.environ.get("SUPPORT", "https://t.me/sabyahaapnehai") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "https://t.me/Teams_devil") # Your Channel
-    Source_code = os.environ.get("Source_code"," abe repo chahiye to group join kar 🤨🤨") #your Source_code
+    Source_code = os.environ.get("Source_code"," abe laude  repo chahiye to group join kar 🤨🤨") #your Source_code
     START_IMG = os.environ.get("START_IMG", "https://te.legra.ph/file/490d4f6fa16e4bdff4c0c.jpg")
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
     ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5372699109")) # telegram I'd not Username
