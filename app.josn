@@ -1,13 +1,13 @@
 {
-    "name": "Yukki Music Bot",
+    "name": "DevilXmusicbot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "logo": "https://te.legra.ph/file/490d4f6fa16e4bdff4c0c.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Yukki",
-    "YukkiMusicBot",
+    "Devil",
+    "DevilXmusicbot",
     "telegram-bot",
     "pyrogram"
     ],
@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "17323890",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "6bd39253d6505762ec92cee9bbeec8bb",
         "required": true
       },      
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,27 +30,27 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "5983809475:AAEkhDHjL2HDnTH0CDycSZiq2jlfpBS7_mY",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
+        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Devil's database for you.",
         "value": "",
         "required": false
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "",
+        "value": "𝐃𝐄𝐕𝐈𝐋 𝙓 ꪑꪊ𝘴𝓲ᥴ",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "5372699109",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
+        "value": "BQBEFqJbsm3DZmp3DwdOhQu7MzCSSb9EFDzCzExOTV5hwiwtz9JD8zquz7tdEYtD1Fj0kwdSe7ieNU2_QLQDWwCrFpEuOpagOqPvr_htDDY-S0OvYm7FYUgkDnEX-h7dz37IZgTTPC7GxlP2XhFtKCaV-VS89mp5mRn8J7-_nylciySgzXPkUq09-7bs0A3iBxYSf1L_fB2mr2tV8uYRCbet0RkZi3v67Ptf2aEHmoaLf1e9VsS_7R1HRfRC7HdAeMJQEz1sieBIYmencCydKG0zXqrc68uCEsV7XYCtx1VL1iHxiqh1w7JCZ1K_OEbVqy_w6ATDKcfPnk9g8CMyJD53AAAAAUA84eUA",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -70,7 +70,7 @@
       },      
       "START_IMG_URL": {
         "description": "Telegraph Image URL For Start Command",
-        "value": "https://telegra.ph/file/e17f42bc195635b668d6d.jpg",
+        "value": "https://te.legra.ph/file/490d4f6fa16e4bdff4c0c.jpg",
         "required": true
       }
     },
@@ -82,7 +82,7 @@
               "url": "heroku/nodejs"
           },
           {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+              "url": "https://github.com/sahilsaim1919/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
       "formation": {
