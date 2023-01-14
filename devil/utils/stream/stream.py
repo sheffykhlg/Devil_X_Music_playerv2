@@ -15,7 +15,7 @@ from Devil.utils.exceptions import AssistantErr
 from Devil.utils.inline.play import (stream_markup,
                                           telegram_markup)
 from Devil.utils.inline.playlist import close_markup
-from Devil.utils.pastebin import Bikashhbin
+from Devil.utils.pastebin import Devillbin
 from Devil.utils.stream.queue import put_queue, put_queue_index
 from Devil.utils.thumbnails import gen_thumb
 
