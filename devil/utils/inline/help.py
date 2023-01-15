@@ -1,5 +1,5 @@
 
-# Powered By @Teams_devil @misterjack18
+# Powered By @Teams_devil @misterjack
 
 from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
@@ -51,7 +51,7 @@ def help_pannel(_, START: Union[bool, int] = None):
                     callback_data="help_callback hb5",
                 ),
                 InlineKeyboardButton(
-                    text="??????????????", url=f"{SUPPORT_GROUP}"
+                    text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{SUPPORT_GROUP}"
                 ),
             ],
             mark,
@@ -87,4 +87,3 @@ def private_help_panel(_):
         ],
     ]
     return buttons
-
