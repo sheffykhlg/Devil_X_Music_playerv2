@@ -21,10 +21,10 @@ def song_markup(_, vidid):
         ],
         [
             InlineKeyboardButton(
-                text="?? ?????????????? ??", url=f"{Devil.config.SUPPORT_GROUP}",
+                text="🌷 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🌷", url=f"{Devil.config.SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
-                text="??????????????", url=f"https://t.me/sabyahaapnehai"
+                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/sabyahaapnehai"
             ),
         ],
     ]
