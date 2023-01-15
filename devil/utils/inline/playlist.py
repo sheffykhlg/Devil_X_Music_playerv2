@@ -5,11 +5,11 @@ def botplaylist_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="?? ???????????????? ??",
+                text="🔒 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 🔒",
                 callback_data="get_playlist_playmode",
             ),
             InlineKeyboardButton(
-                text="?? ?????? 10 ??", callback_data="get_top_playlists"
+                text="📊 𝐓𝐨𝐩 10 🌷", callback_data="get_top_playlists"
             ),
         ],
         [
@@ -25,17 +25,17 @@ def top_play_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="?? ???????????? ?????? 10 ??", callback_data="SERVERTOP global"
+                text="🌍 𝐆𝐥𝐨𝐛𝐚𝐥 𝐓𝐨𝐩 10 🌷", callback_data="SERVERTOP global"
             )
         ],
         [
             InlineKeyboardButton(
-                text="???? ?????????? ?????? 10 ??", callback_data="SERVERTOP chat"
+                text="🇮🇳 𝐆𝐫𝐨𝐮𝐩 𝐓𝐨𝐩 10 🌷", callback_data="SERVERTOP chat"
             )
         ],
         [
             InlineKeyboardButton(
-                text="??? ???????????????? ?????? 10 ??", callback_data="SERVERTOP user"
+                text="🛡️ 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐓𝐨𝐩 10 🌷", callback_data="SERVERTOP user"
             )
         ],
         [
@@ -76,17 +76,17 @@ def top_play_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="?? ???????????? ?????? 10 ??", callback_data="SERVERTOP Global"
+                text="🌍 𝐆𝐥𝐨𝐛𝐚𝐥 𝐓𝐨𝐩 10 🌷", callback_data="SERVERTOP Global"
             )
         ],
         [
             InlineKeyboardButton(
-                text="???? ?????????? ?????? 10 ??", callback_data="SERVERTOP Group"
+                text="🇮🇳 𝐆𝐫𝐨𝐮𝐩 𝐓𝐨𝐩 10 🌷", callback_data="SERVERTOP Group"
             )
         ],
         [
             InlineKeyboardButton(
-                text="??? ???????????????? ?????? 10 ??", callback_data="SERVERTOP Personal"
+                text="🛡️ 𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥 𝐓𝐨𝐩 10 🌷", callback_data="SERVERTOP Personal"
             )
         ],
         [
