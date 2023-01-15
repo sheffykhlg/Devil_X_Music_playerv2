@@ -1,4 +1,4 @@
-# Powered By @Teams_devil @misterjack18
+# Powered By @Teams_Devil@misterjack18
 
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
@@ -11,23 +11,23 @@ def start_pannel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="?? ???????????????? ?",
+                text="🥀 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ✨",
                 url=f"https://t.me/{app.username}?start=help",
             )
         ],
         [
             InlineKeyboardButton(
-                text="?? ??????????????",
-                url=f"https://t.me/sabyahaapnehai",
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
+                url=f"https://t.me/Teams_devil",
             ),
             InlineKeyboardButton(
-                text="?????????????? ??",
-                url=f"https://t.me/Teams_devil",
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                url=f"https://t.me/sabyahaapnehai",
             )
         ],
         [
             InlineKeyboardButton(
-                text="? ?????? ?????????????? ?", callback_data="settings_helper"
+                text="⚙ 𝐁𝐨𝐭 𝐒𝐞𝐭𝐭𝐢𝐧𝐠 ⚙", callback_data="settings_helper"
             )
         ]
     ]
@@ -39,20 +39,20 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="? ??????? ???? ???????? ?????????? ? ?",
+                text="➕ ❰𝐀𝐝𝐝 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ❱ ➕",
                 url=f"https://t.me/{app.username}?startgroup=true"),
         ],
         [
             InlineKeyboardButton(
-                text="?? ??????????????",
-                url=f"https://t.me/sabyahaapnehai"),
+                text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
+                url=f"https://t.me/Teams_devil"),
             InlineKeyboardButton(
-                text="?????????????? ??",
-                url=f"https://t.me/Teams_devil")
+                text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                url=f"https://t.me/sabyahaapnehai")
         ],
         [
             InlineKeyboardButton(
-                text="? ? ???????????????? ? ?",
+                text="⚙ ❰ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ❱ ⚙",
                 callback_data="settings_back_helper"
             )
         ]
