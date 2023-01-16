@@ -1,7 +1,7 @@
 # Powered By @Teams_devil @misterjack18
 # ©? Copy Right By Teams_devil Or misterjack18 
 # Any Problem To Report @Teams_devil or @misterjack18
-# Bot Owner @Teams_devil Or @misterjack18
+# Bot Owner @Teams_devil Or @sabyahaapnehai
 
 from pyrogram import filters
 from pyrogram.types import Message
