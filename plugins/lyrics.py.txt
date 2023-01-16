@@ -7,10 +7,10 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from Bikash.config import BANNED_USERS, lyrical
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.utils.decorators.language import language
+from Devil.config import BANNED_USERS, lyrical
+from Devil.strings import get_command
+from Devil import app
+from Devil.utils.decorators.language import language
 
 ###Commands
 LYRICS_COMMAND = get_command("LYRICS_COMMAND")
@@ -48,7 +48,7 @@ async def lrsearch(client, message: Message, _):
         [
             [
                 InlineKeyboardButton(
-                    text=_["L_B_1"],
+                    text=_["L_D_1"],
                     url=f"https://t.me/{app.username}?start=lyrics_{ran_hash}",
                 ),
             ]
