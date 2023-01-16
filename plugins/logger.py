@@ -1,11 +1,11 @@
 from pyrogram import filters
 
-from Bikash import config
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.misc import SUDOERS
-from Bikash.utils.database import add_off, add_on
-from Bikash.utils.decorators.language import language
+from Devil import config
+from Devil.strings import get_command
+from Devil import app
+from Devil.misc import SUDOERS
+from Devil.utils.database import add_off, add_on
+from Devil.utils.decorators.language import language
 
 # Commands
 LOGGER_COMMAND = get_command("LOGGER_COMMAND")
