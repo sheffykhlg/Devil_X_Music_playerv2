@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.utils.database.memorydatabase import (get_loop,
+from Devil.config import BANNED_USERS
+from Devil.strings import get_command
+from Devil import app
+from Devil.utils.database.memorydatabase import (get_loop,
                                                       set_loop)
-from Bikash.utils.decorators import AdminRightsCheck
+from Devil.utils.decorators import AdminRightsCheck
 
 # Commands
 LOOP_COMMAND = get_command("LOOP_COMMAND")
