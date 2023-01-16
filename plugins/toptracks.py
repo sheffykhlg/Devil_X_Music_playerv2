@@ -1,22 +1,22 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# Â©? Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 import asyncio
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
-from Bikash.config import BANNED_USERS
-from Bikash import app
-from Bikash.utils.database import (get_global_tops,
+from Devil.config import BANNED_USERS
+from Devil import app
+from Devil.utils.database import (get_global_tops,
                                        get_particulars, get_userss)
-from Bikash.utils.decorators.language import languageCB
-from Bikash.utils.inline.playlist import (botplaylist_markup,
+from Devil.utils.decorators.language import languageCB
+from Devil.utils.inline.playlist import (botplaylist_markup,
                                               failed_top_markup,
                                               top_play_markup)
-from Bikash.utils.stream.stream import stream
+from Devil.utils.stream.stream import stream
 
 loop = asyncio.get_running_loop()
 
