@@ -1,23 +1,23 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @miaterjack18
+# Â©? Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from Bikash import config
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import YouTube, app
-from Bikash.core.call import Bikashh
-from Bikash.misc import db
-from Bikash.utils.database import get_loop
-from Bikash.utils.decorators import AdminRightsCheck
-from Bikash.utils.inline.play import (stream_markup,
+from Devil import config
+from Devil.config import BANNED_USERS
+from Devil.strings import get_command
+from Devil import YouTube, app
+from Devil.core.call import Bikashh
+from Devil.misc import db
+from Devil.utils.database import get_loop
+from Devil.utils.decorators import AdminRightsCheck
+from Devil.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from Bikash.utils.stream.autoclear import auto_clean
-from Bikash.utils.thumbnails import gen_thumb
+from Devil.utils.stream.autoclear import auto_clean
+from Devil.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
@@ -65,7 +65,7 @@ async def skip(cli, message: Message, _, chat_id):
                                             message.from_user.first_name
                                         )
                                     )
-                                    await Bikashh.stop_stream(chat_id)
+                                    await Devill.stop_stream(chat_id)
                                 except:
                                     return
                                 break
@@ -92,7 +92,7 @@ async def skip(cli, message: Message, _, chat_id):
                     _["admin_10"].format(message.from_user.first_name)
                 )
                 try:
-                    return await Bikashh.stop_stream(chat_id)
+                    return await Devill.stop_stream(chat_id)
                 except:
                     return
         except:
@@ -100,7 +100,7 @@ async def skip(cli, message: Message, _, chat_id):
                 await message.reply_text(
                     _["admin_10"].format(message.from_user.first_name)
                 )
-                return await Bikashh.stop_stream(chat_id)
+                return await Devill.stop_stream(chat_id)
             except:
                 return
     queued = check[0]["file"]
@@ -116,7 +116,7 @@ async def skip(cli, message: Message, _, chat_id):
                 _["admin_11"].format(title)
             )
         try:
-            await Bikashh.skip_stream(chat_id, link, video=status)
+            await Devil.skip_stream(chat_id, link, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_, chat_id)
@@ -145,7 +145,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             return await mystic.edit_text(_["call_9"])
         try:
-            await Bikashh.skip_stream(chat_id, file_path, video=status)
+            await Devill.skip_stream(chat_id, file_path, video=status)
         except Exception:
             return await mystic.edit_text(_["call_9"])
         button = stream_markup(_, videoid, chat_id)
@@ -163,7 +163,7 @@ async def skip(cli, message: Message, _, chat_id):
         await mystic.delete()
     elif "index_" in queued:
         try:
-            await Bikashh.skip_stream(chat_id, videoid, video=status)
+            await Devill.skip_stream(chat_id, videoid, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_, chat_id)
@@ -176,7 +176,7 @@ async def skip(cli, message: Message, _, chat_id):
         db[chat_id][0]["markup"] = "tg"
     else:
         try:
-            await Bikashh.skip_stream(chat_id, queued, video=status)
+            await Devill.skip_stream(chat_id, queued, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         if videoid == "telegram":
