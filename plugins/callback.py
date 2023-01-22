@@ -280,7 +280,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await CallbackQuery.edit_message_text(txt)
         else:
             try:
-                await Bikashh.skip_stream(chat_id, queued, video=status)
+                await Devill.skip_stream(chat_id, queued, video=status)
             except Exception:
                 return await CallbackQuery.message.reply_text(
                     _["call_9"]
