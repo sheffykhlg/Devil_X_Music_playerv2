@@ -1,18 +1,18 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# Â©? Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.utils.database import (get_playmode, get_playtype,
+from Devil.config import BANNED_USERS
+from Devil.strings import get_command
+from Devil import app
+from Devil.utils.database import (get_playmode, get_playtype,
                                        is_nonadmin_chat)
-from Bikash.utils.decorators import language
-from Bikash.utils.inline.settings import playmode_users_markup
+from Devil.utils.decorators import language
+from Devil.utils.inline.settings import playmode_users_markup
 
 ### Commands
 PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND")
