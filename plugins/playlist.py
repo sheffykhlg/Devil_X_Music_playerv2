@@ -1,7 +1,7 @@
-# Powered By @BikashHalder @AdityaHalder
-# �? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# ©️ Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 import os
 from random import randint
@@ -11,18 +11,18 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from Bikash.config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from Bikash.strings import get_command
-from Bikash import Carbon, YouTube, app
-from Bikash.utils.database import (delete_playlist, get_playlist,
+from Devil.config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
+from Devil.strings import get_command
+from Devil import Carbon, YouTube, app
+from Devil.utils.database import (delete_playlist, get_playlist,
                                        get_playlist_names,
                                        save_playlist)
-from Bikash.utils.decorators.language import language, languageCB
-from Bikash.utils.inline.playlist import (botplaylist_markup,
+from Devil.utils.decorators.language import language, languageCB
+from Devil.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from Bikash.utils.pastebin import Bikashhbin
-from Bikash.utils.stream.stream import stream
+from Devil.utils.pastebin import devillbin
+from Devil.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")
