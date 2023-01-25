@@ -1,18 +1,18 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# ©️ Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 from pyrogram import filters
 from pyrogram.errors import MessageNotModified
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from Bikash.config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
+from Devil.config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
                     MUSIC_BOT_NAME, OWNER_ID)
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.utils.database import (add_nonadmin_chat,
+from Devil.strings import get_command
+from Devil import app
+from Devil.utils.database import (add_nonadmin_chat,
                                        cleanmode_off, cleanmode_on,
                                        commanddelete_off,
                                        commanddelete_on,
@@ -27,13 +27,13 @@ from Bikash.utils.database import (add_nonadmin_chat,
                                        save_audio_bitrate,
                                        save_video_bitrate,
                                        set_playmode, set_playtype)
-from Bikash.utils.decorators.admins import ActualAdminCB
-from Bikash.utils.decorators.language import language, languageCB
-from Bikash.utils.inline.settings import (
+from Devil.utils.decorators.admins import ActualAdminCB
+from Devil.utils.decorators.language import language, languageCB
+from Devil.utils.inline.settings import (
     audio_quality_markup, auth_users_markup,
     cleanmode_settings_markup, playmode_users_markup, setting_markup,
     video_quality_markup)
-from Bikash.utils.inline.start import private_panel
+from Devil.utils.inline.start import private_panel
 
 ### Command
 SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
