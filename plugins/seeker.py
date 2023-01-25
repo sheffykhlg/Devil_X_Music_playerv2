@@ -1,18 +1,18 @@
-# Powered By @BikashHalder @AdityaHalder
-# ©️ Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# ©️ Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 import asyncio
 
 from pyrogram.types import InlineKeyboardMarkup
 
-from Bikash.strings import get_string
-from Bikash.misc import db
-from Bikash.utils.database import (get_active_chats, get_lang,
+from Devil.strings import get_string
+from Devil.misc import db
+from Devil.utils.database import (get_active_chats, get_lang,
                                        is_music_playing)
-from Bikash.utils.formatters import seconds_to_min
-from Bikash.utils.inline import (stream_markup_timer,
+from Devil.utils.formatters import seconds_to_min
+from Devil.utils.inline import (stream_markup_timer,
                                      telegram_markup_timer)
 
 from plugins.callback import wrong
