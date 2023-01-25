@@ -1,5 +1,5 @@
 # Powered By @BikashHalder @AdityaHalder
-# �? Copy Right By Bikash Halder Or Aditya Halder
+# ©️ Copy Right By Bikash Halder Or Aditya Halder
 # Any Problem To Report @Bgt_Chat or @AdityaDiscus
 # Bot Owner @BikashHalder Or @AdityaHalder
 
