@@ -1,17 +1,17 @@
-# Powered By @BikashHalder @AdityaHalder
-# �? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# ©️ Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Team_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import app
-from Bikash.core.call import Bikashh
-from Bikash.utils.database import is_music_playing, music_on
-from Bikash.utils.decorators import AdminRightsCheck
+from Devil.config import BANNED_USERS
+from Devil.strings import get_command
+from Devil import app
+from Devil.core.call import Devill
+from Devil.utils.database import is_music_playing, music_on
+from Devil.utils.decorators import AdminRightsCheck
 
 # Commands
 RESUME_COMMAND = get_command("RESUME_COMMAND")
