@@ -1,17 +1,17 @@
-# Powered By @BikashHalder @AdityaHalder
-# �? Copy Right By Bikash Halder Or Aditya Halder
-# Any Problem To Report @Bgt_Chat or @AdityaDiscus
-# Bot Owner @BikashHalder Or @AdityaHalder
+# Powered By @Teams_devil @misterjack18
+# ©️ Copy Right By Teams_devil Or misterjack18 
+# Any Problem To Report @Teams_devil or @sabyahaapnehai
+# Bot Owner @Teams_devil Or @misterjack18
 
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Bikash.config import BANNED_USERS
-from Bikash.strings import get_command
-from Bikash import YouTube, app
-from Bikash.core.call import Bikashh
-from Bikash.misc import db
-from Bikash.utils import AdminRightsCheck, seconds_to_min
+from Devil.config import BANNED_USERS
+from Devil.strings import get_command
+from Devil import YouTube, app
+from Devil.core.call import Devill
+from Devil.misc import db
+from Devil.utils import AdminRightsCheck, seconds_to_min
 
 # Commands
 SEEK_COMMAND = get_command("SEEK_COMMAND")
