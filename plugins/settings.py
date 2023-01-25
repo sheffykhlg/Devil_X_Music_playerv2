@@ -1,5 +1,5 @@
 # Powered By @BikashHalder @AdityaHalder
-# �? Copy Right By Bikash Halder Or Aditya Halder
+# ©️ Copy Right By Bikash Halder Or Aditya Halder
 # Any Problem To Report @Bgt_Chat or @AdityaDiscus
 # Bot Owner @BikashHalder Or @AdityaHalder
 
@@ -433,7 +433,7 @@ async def authusers_mar(client, CallbackQuery, _):
                     j += 1
                 except Exception:
                     continue
-                msg += f"{j}? {user}[`{user_id}`]\n"
+                msg += f"{j}➤ {user}[`{user_id}`]\n"
                 msg += (
                     f"   {_['auth_8']} {admin_name}[`{admin_id}`]\n\n"
                 )
