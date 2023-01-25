@@ -81,6 +81,14 @@
 - <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [𝐓𝐄𝐀𝐌 𝐃𝐄𝐕𝐈𝐋](https://github.com/sahilsaim1919) ғᴏʀ [𝐃𝐄𝐕𝐈𝐋 ꪑꪊ𝘴𝓲ᥴ ʙᴏᴛ](https://github.com/sahilsaim1919/Devil_X_Music_player)_ </b>
  
 - <b> _𝑴𝒐𝒔𝒕 𝑺𝒑𝒆𝒄𝒊𝒂𝒍 𝑻𝒉𝒂𝒏𝒌𝒔 𝑨𝒏𝒅 𝑪𝒓𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚𝒚 🥳🥳
-. [T y](https://github.com/teamyukki)
-.[pyro](https://github.com/pyrogram/pyrogram)
-.[py](https://github.com/pytgcalls/pytgcalls)
+
+.
+
+. [𝐓𝐞𝐚𝐦 𝐘𝐮𝐤𝐤𝐢](https://github.com/teamyukki)
+
+
+.[𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 ](https://github.com/pyrogram/pyrogram)
+
+
+.[𝐏𝐲𝐭𝐠𝐜𝐚𝐥𝐥𝐬](https://github.com/pytgcalls/pytgcalls)
+
