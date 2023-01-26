@@ -4,6 +4,13 @@
 
 <p align="center"><a href="https://t.me/Devil_x_music_bot"><img src="https://te.legra.ph/file/23feb49958b0770578fe1.jpg"></a></p>
 
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ Heroku 」─
+</h3>
+
+(https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BikashhalderNew/BikashChatBot)
+
+
 
 
 <h3 align="center">
