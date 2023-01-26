@@ -8,7 +8,8 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ Heroku 」─
 </h3>
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sahilsaim1919/Devil_X_Music_player)
+
+  [![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sahilsaim1919/Devil_X_Music_player)
 
 
 <h3 align="center">
