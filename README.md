@@ -8,9 +8,6 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ Heroku 」─
 </h3>
 
-<p align="center"><a href="https://heroku.com/new?template=https://github.com/sahilsaim1919/Devil_X_Music_player"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=Heroku" width="220" height="38.45"/></a></p>
-
-
 
 
 <h3 align="center">
