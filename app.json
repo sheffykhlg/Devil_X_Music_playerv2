@@ -1,6 +1,6 @@
 {
     "name": "𝐃𝐞𝐯𝐢𝐥✘ꪑꪊ𝘴𝓲ᥴ🇧𝐨𝐭",
-    "logo": "https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg",
+    "logo": "https://te.legra.ph/file/23feb49958b0770578fe1.jpg",
     "description": "🥀 𝐀𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐚𝐧𝐝 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩 𝐕𝐂 ✨",
     "keywords": ["@evil_x_music_bot", "voice chat", "telegram"],
     "repository": "https://github.com/sahilsaim1919/Devil_X_Music_player",
@@ -27,7 +27,7 @@
         "BOT_IMAGE": {
             "description": "𝑰𝒎𝒂𝒈𝒆 𝑻𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍 𝑳𝒊𝒏𝒌 𝑶𝒇 𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕",
             "required": true,
-            "value": "https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg"
+            "value": "https://te.legra.ph/file/23feb49958b0770578fe1.jpg"
         },
         "BOT_NAME": {
             "description": "𝒀𝒐𝒖𝒓 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑵𝒂𝒎𝒆",
@@ -57,6 +57,11 @@
             "description": "𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 𝑶𝒇 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
             "required": true,
             "value": "misterjack18"
+        },
+        "PING_IMAGE": {
+            "description": "PING IMAGE in link",
+            "required": true,
+            "value": "https://te.legra.ph/file/b8e9c122763158456a2e8.jpg"
         },
         "SOURCE_CODE": {
             "description": "𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑹𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚 𝑳𝒊𝒏𝒌 𝑭𝒐𝒓 𝑭𝒖𝒕𝒖𝒓𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔",
