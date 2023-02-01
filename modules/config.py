@@ -4,13 +4,13 @@ import aiohttp
 from os import getenv
 from dotenv import load_dotenv
 
-# 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐥 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 (@𝐁𝐢𝐤𝐚𝐬𝐡𝐇𝐚𝐥𝐝𝐞𝐫 @𝐀𝐝𝐢𝐭𝐲𝐚𝐇𝐚𝐥𝐝𝐞𝐫)
+# 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐥 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 (@𝐓𝐄𝐀𝐌𝐃𝐄𝐕𝐈𝐋)
 load_dotenv()
 que = {}
 admins = {}
 aiohttpsession = aiohttp.ClientSession()
 
-# 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 //𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @𝐁𝐢𝐤𝐚𝐬𝐡𝐇𝐚𝐥𝐝𝐞𝐫 @𝐀𝐝𝐢𝐭𝐲𝐚𝐇𝐚𝐥𝐝𝐞𝐫
+# 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐝 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬 //𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @𝐓𝐄𝐀𝐌𝐃𝐄𝐕𝐈𝐋 
 API_HASH = getenv("API_HASH", "XXXXX")
 API_ID = int(getenv("API_ID", "XXXXX"))
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "XXXXX")
@@ -20,9 +20,9 @@ BOT_NAME = getenv("BOT_NAME", "XXXXX")
 BOT_TOKEN = getenv("BOT_TOKEN", "12345:XXXXX")
 BOT_USERNAME = getenv("BOT_USERNAME", "XXXXX")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "120"))
-OWNER_NAME = getenv("OWNER_NAME", "𝐁𝐢𝐤𝐚𝐬𝐡 𝐇𝐚𝐥𝐝𝐞𝐫")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "BikashHalder")
-SOURCE_CODE = getenv("SOURCE_CODE", "https://github.com/BikashhalderNew/BGTMUSICBOT2")
+OWNER_NAME = getenv("OWNER_NAME", "😈😈𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ🇲​.𝐑 𝐃𝐄𝐕𝐈𝐋")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "misterjack18")
+SOURCE_CODE = getenv("SOURCE_CODE", "https://github.com/sahilsaim1919/Devil_X_Music_player")
 STRING_SESSION = getenv("STRING_SESSION", "session")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5372699109").split()))
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/sabyahaapnehai")
