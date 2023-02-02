@@ -8,8 +8,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ Heroku 」─
 </h3>
 
-
-  [![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sahilsaim1919/Devil_X_Music_player) <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://render.com/new?template=https://github.com/sahilsaim1919/Devil_X_Music_player"> <img src="https://img.shields.io/badge/Deploy%20On%20Render-black?style=for-the-badge&logo=render" width="220" height="38.45"/></a></p>
 
 
 
@@ -18,7 +17,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ Render 」─
 </h3>
 
-<p align="center"><a href="https://render.com/new?template=https://github.com/sahilsaim1919/Devil_X_Music_player"> <img src="https://img.shields.io/badge/Deploy%20On%20Render-black?style=for-the-badge&logo=render" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/sahilsaim1919/Devil_X_Music_player"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=Heroku" width="220" height="38.45"/></a></p>
 
 
 <h3 align="center">
