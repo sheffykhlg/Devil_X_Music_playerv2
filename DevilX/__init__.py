@@ -1,8 +1,8 @@
-from AnonX.core.bot import AnonXBot
-from AnonX.core.dir import dirr
-from AnonX.core.git import git
-from AnonX.core.userbot import Userbot
-from AnonX.misc import dbb, heroku, sudo
+from DevilX.core.bot import AnonXBot
+from DevilX.core.dir import dirr
+from DevilX.core.git import git
+from DevilX.core.userbot import Userbot
+from DevilX.misc import dbb, heroku, sudo
 from aiohttp import ClientSession
 
 from .logging import LOGGER
@@ -19,7 +19,7 @@ heroku()
 sudo()
 
 # Clients
-app = AnonXBot()
+app = DevilXmusicbot()
 
 userbot = Userbot()
 
